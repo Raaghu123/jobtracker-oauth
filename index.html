@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobTracker Sync</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, Segoe UI, Roboto, sans-serif;
+         max-width: 640px; margin: 4rem auto; padding: 0 1.25rem; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  footer { margin-top: 3rem; color: #666; font-size: .9rem; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+  <h1>JobTracker Sync</h1>
+  <p class="sub">A private, single-user automation tool.</p>
+
+  <p>JobTracker Sync mirrors the owner's local spreadsheets to the owner's
+     own Google Drive as native Google Sheets, and appends rows to a
+     personal lead-tracking sheet. It runs only for its single owner's
+     account and is not offered as a service to anyone else.</p>
+
+  <p>It requests a single Google scope, <code>drive.file</code>, which
+     allows access only to the specific files the tool itself creates
+     and the sheets its owner explicitly shares with it.</p>
+
+  <footer>
+    <p>Contact: <a href="mailto:dvraagu@gmail.com">dvraagu@gmail.com</a></p>
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>
